@@ -6,8 +6,8 @@ from rest_framework.response import Response
 class TestView(APIView):
     def get(self, request, *args, **kwargs):
         data = {
-            "username": "admin",
-            "no_of_years": 10,
+            'username': 'admin',
+            'no_of_years': 10,
         }
 
         return Response(data)
